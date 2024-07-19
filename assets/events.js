@@ -6,12 +6,12 @@ $( document ).ready(function() {
     AFRAME.registerComponent('image-tracker-1', {
         init: function () {
             console.log("image-tracker-1 init");
-            arbox.style.display = "block";
+            
         },
         tick: function() {
             if (this.el.object3D.visible == true) {
                 // 掃描到辨識點
-                
+                arbox.style.display = "block";
                 step = 2;
             }
         }
