@@ -2,7 +2,7 @@ $( document ).ready(function() {
     var step = 1;
     var is_notified = false;
     var arbox = document.querySelector('.arbox');
-    arbox.style.display = "block";
+
     AFRAME.registerComponent('image-tracker-1', {
         init: function () {
             console.log("image-tracker-1 init");
