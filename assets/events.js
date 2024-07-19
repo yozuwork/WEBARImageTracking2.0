@@ -1,4 +1,3 @@
-$( document ).ready(function() {
     var step = 1;
     var is_notified = false;
     var arbox = document.querySelector('.arbox');
@@ -29,7 +28,3 @@ $( document ).ready(function() {
             }
         }
     });
-});
-
-
-
