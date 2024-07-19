@@ -2,11 +2,11 @@ $( document ).ready(function() {
     var step = 1;
     var is_notified = false;
     var arbox = document.querySelector('.arbox');
-
+    
     AFRAME.registerComponent('image-tracker-1', {
         init: function () {
             console.log("image-tracker-1 init");
-            arbox.style.display = "blcok";
+            arbox.style.display = "block";
         },
         tick: function() {
             if (this.el.object3D.visible == true) {
