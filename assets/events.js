@@ -11,6 +11,7 @@
             if (this.el.object3D.visible == true) {
                 // 掃描到辨識點
                 arbox.style.display = "block";
+                alert("辨識成功");
                 step = 2;
             }
         }
