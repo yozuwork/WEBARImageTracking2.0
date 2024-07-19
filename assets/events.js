@@ -5,7 +5,7 @@
     AFRAME.registerComponent('image-tracker-1', {
         init: function () {
             console.log("image-tracker-1 init");
-            
+            alert("已進入AR模式，請掃描封面辨識點");
         },
         tick: function() {
             if (this.el.object3D.visible == true) {
